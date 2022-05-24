@@ -432,8 +432,8 @@
       "GE-Fets-C"
     ],
     [
-      "d4091ad1-d165-402e-9c76-eb38ad2e5381",
-      "GE-ESP32-S2"
+      "73e53354-1338-4e62-9b95-266f9aac776e",
+      "GE-STM32F103"
     ]
   ],
   "text_variables": {}
