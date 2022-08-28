@@ -1,71 +1,42 @@
-05-30 22:54:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 295:Plugin executed on: 'win32'
-05-30 22:54:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 296:Plugin executed with python version: '3.9.10 (main, Apr 30 2022, 01:39:58) [MSC v.1929 64 bit (AMD64)]'
-05-30 22:54:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 297:KiCad build version: (6.0.5)
-05-30 22:54:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 298:Plugin version: 1.1.2
-05-30 22:54:15 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 299:Frame repr: <wx._core.Frame object at 0x000001E3353515E0>
-05-30 22:54:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 323:Preparing replicator with R1 as a reference
-05-30 22:54:16 com_github_MitjaNemec_ReplicateLayout.replicate_layout 98:getting a list of all footprints on board
-05-30 22:54:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 351:source anchor footprint is 'R1'
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 295:Plugin executed on: 'win32'
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 296:Plugin executed with python version: '3.9.10 (main, Apr 30 2022, 01:39:58) [MSC v.1929 64 bit (AMD64)]'
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 297:KiCad build version: (6.0.5)
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 298:Plugin version: 1.1.2
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 299:Frame repr: <wx._core.Frame object at 0x0000023CE6AFD4C0>
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 323:Preparing replicator with Q1 as a reference
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 98:getting a list of all footprints on board
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 110:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 110:Footprint REF** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 110:Footprint G*** does not have Sheetfile property, it will not be replicated. Most likely it is only in schematics
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 351:source anchor footprint is 'Q1'
 Located on: ['GE-Fets-A']
 With filenames: ['GE-Fets.kicad_sch']
 With sheet_id:['GE-Fets-A']
-05-30 22:54:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 358:Corresponding footprints are 
-[('R1', ['GE-Fets-A']), ('R3', ['GE-Fets-C']), ('R2', ['GE-Fets-B'])]
-05-30 22:54:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 370:Showing dialog
-05-30 22:54:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 376:Toolbar position: wx.Point(1621, 146)
-05-30 22:54:16 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 382:Dialog position: wx.Point(1257, 146)
-05-30 22:54:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'GE-Fets-A', file:'GE-Fets.kicad_sch'
-05-30 22:54:17 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['GE-Fets-B'], ['GE-Fets-C']]
-05-30 22:54:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'GE-Fets-A', file:'GE-Fets.kicad_sch'
-05-30 22:54:21 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['GE-Fets-B'], ['GE-Fets-C']]
-05-30 22:54:21 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 145:Replicating layout
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 146:Starting replication of sheets: [['GE-Fets-B'], ['GE-Fets-C']]
-on level: ['GE-Fets-A']
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 358:Corresponding footprints are 
+[('Q3', ['GE-Fets-C']), ('Q1', ['GE-Fets-A']), ('Q2', ['GE-Fets-B'])]
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 370:Showing dialog
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 376:Toolbar position: wx.Point(3558, -56)
+08-24 23:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 382:Dialog position: wx.Point(3194, -56)
+08-24 23:52:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'GE-Fets-A', file:'GE-Fets.kicad_sch'
+08-24 23:52:39 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['GE-Fets-B'], ['GE-Fets-C']]
+08-24 23:52:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'GE-Fets-A', file:'GE-Fets.kicad_sch'
+08-24 23:52:41 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['GE-Fets-B'], ['GE-Fets-C']]
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:constructing a list of sheets suitable for replication on level:'GE-Fets-A', file:'GE-Fets.kicad_sch'
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 372:suitable sheets are:[['GE-Fets-B'], ['GE-Fets-C']]
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 145:Replicating layout
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 146:Starting replication of sheets: [['GE-Fets-B'], ['GE-Fets-C']]
+on level: []
 with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False, by_group=False
-05-30 22:54:22 root 235:updating GUI message: 'Preparing for replication'
-05-30 22:54:22 root 240:updating GUI with: 0
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 215:Getting the list of source footprints
-05-30 22:54:22 root 240:updating GUI with: 0
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Getting the list of all the remaining footprints
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 235:Getting nets local to source footprints
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 238:Getting source bounding box
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source tracks
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 257:Getting source zones
-05-30 22:54:22 root 240:updating GUI with: 62
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source text items
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source drawing items
-05-30 22:54:22 root 235:updating GUI message: 'Replicating footprints'
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['GE-Fets-B']
-05-30 22:54:22 root 240:updating GUI with: 5
-05-30 22:54:22 root 240:updating GUI with: 7
-05-30 22:54:22 root 240:updating GUI with: 40
-05-30 22:54:22 root 240:updating GUI with: 42
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['GE-Fets-C']
-05-30 22:54:22 root 240:updating GUI with: 52
-05-30 22:54:22 root 240:updating GUI with: 65
-05-30 22:54:22 root 240:updating GUI with: 80
-05-30 22:54:22 root 240:updating GUI with: 87
-05-30 22:54:22 root 235:updating GUI message: 'Replicating tracks'
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 835:Replicating tracks
-05-30 22:54:22 root 240:updating GUI with: 0
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['GE-Fets-B']
-05-30 22:54:22 root 240:updating GUI with: 0
-05-30 22:54:22 root 240:updating GUI with: 1
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 841:Replicating tracks on sheet ['GE-Fets-C']
-05-30 22:54:22 root 240:updating GUI with: 77
-05-30 22:54:22 root 235:updating GUI message: 'Replicating zones'
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 893:Replicating zones
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['GE-Fets-B']
-05-30 22:54:22 root 240:updating GUI with: 16
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 900:Replicating zones on sheet ['GE-Fets-C']
-05-30 22:54:22 root 240:updating GUI with: 66
-05-30 22:54:22 root 235:updating GUI message: 'Replicating text'
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating text
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['GE-Fets-B']
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 970:Replicating text on sheet ['GE-Fets-C']
-05-30 22:54:22 root 235:updating GUI message: 'Replicating drawings'
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1003:Replicating drawings
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['GE-Fets-B']
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1009:Replicating drawings on sheet ['GE-Fets-C']
-05-30 22:54:22 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 169:Replication complete
+08-24 23:52:43 root 235:updating GUI message: 'Preparing for replication'
+08-24 23:52:43 root 240:updating GUI with: 0
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 215:Getting the list of source footprints
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Getting the list of all the remaining footprints
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 235:Getting nets local to source footprints
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 238:Getting source bounding box
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 242:Getting source tracks
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 257:Getting source zones
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source text items
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source drawing items
+08-24 23:52:43 root 235:updating GUI message: 'Replicating footprints'
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 669:Replicating footprints
+08-24 23:52:43 com_github_MitjaNemec_ReplicateLayout.replicate_layout 675:Replicating footprints on sheet ['GE-Fets-B']
