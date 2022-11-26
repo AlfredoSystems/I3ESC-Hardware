@@ -979,7 +979,7 @@
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 171.958 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF2201TCE_C25879.html" (id 3) (at 170.18 78.74 0)
+    (property "Datasheet" "" (id 3) (at 170.18 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C25879" (id 4) (at 170.18 78.74 0)

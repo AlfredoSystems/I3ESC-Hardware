@@ -1276,11 +1276,6 @@
     (fp_circle (center 0 0) (end 0.85 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 4019e6bb-3d17-415f-b5cd-d5f1ad153877))
     (pad "1" thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask)
       (net 26 "Net-(R80-Pad1)") (pinfunction "1") (pintype "passive") (tstamp 9f21353d-d490-4c63-a801-ad1769033009))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (footprint "AlfredoFootprints:GE_TestPoint_Loop" (layer "F.Cu")
@@ -1308,11 +1303,6 @@
     (fp_circle (center 0 0) (end 0.85 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 6b5c809b-948c-43b2-8744-4dd8209be641))
     (pad "1" thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask)
       (net 45 "+3V3") (pinfunction "1") (pintype "passive") (tstamp d1573498-42d5-4aa8-bfa2-438a2ec2da22))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (footprint "Diode_SMD:D_SOD-323_HandSoldering" (layer "F.Cu")
@@ -1521,11 +1511,6 @@
     (fp_circle (center 0 0) (end 0.85 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp e490471b-4b9e-4d4c-baf1-5ec77fda1562))
     (pad "1" thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask)
       (net 42 "SWCLK") (pinfunction "1") (pintype "passive") (tstamp 0a6f7942-4a23-41a6-95a4-1ee555e0b195))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
@@ -1916,11 +1901,6 @@
     (fp_circle (center 0 0) (end 0.85 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp ebcc61fd-e60c-47b2-beb9-a138a1a75343))
     (pad "1" thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask)
       (net 44 "GND") (pinfunction "1") (pintype "passive") (tstamp 7a54327a-53b1-4923-a94a-9c1ccbfabde7))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (footprint "AlfredoFootprints:GE_R_2512" (layer "F.Cu")
@@ -2168,11 +2148,6 @@
     (fp_circle (center 0 0) (end 0.85 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 6b0dc181-a52f-4435-ab76-3f11cb2d9300))
     (pad "1" thru_hole circle (at 0 0) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask)
       (net 41 "SWDIO") (pinfunction "1") (pintype "passive") (tstamp 6ee72d18-332e-460c-b650-c67d8a8940a1))
-    (model "${KICAD6_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D2.50mm_Drill1.0mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")

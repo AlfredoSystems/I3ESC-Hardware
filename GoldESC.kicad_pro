@@ -385,8 +385,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "../../../Downloads/GoldESC.step",
+      "vrml": "../../../Downloads/GoldESC.wrl"
     },
     "page_layout_descr_file": ""
   },
