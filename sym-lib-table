@@ -1,2 +1,4 @@
 (sym_lib_table
+  (version 0)
+  (lib (name "I3ESC-altium-import")(type "KiCad")(uri "${KIPRJMOD}/I3ESC-altium-import.kicad_sym")(options "")(descr ""))
 )
