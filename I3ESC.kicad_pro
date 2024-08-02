@@ -560,7 +560,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -630,6 +630,10 @@
       "Root"
     ],
     [
+      "33fe893d-1f13-49a8-b542-03d4b71301ae",
+      "IE-FETS-NoOp-B"
+    ],
+    [
       "dd0aac2e-62bc-46c0-bbcd-34b6d0f35d42",
       "IE-Fets-A"
     ],
@@ -638,12 +642,16 @@
       "IE-Fets-B"
     ],
     [
-      "512870fe-ca0f-4b74-8f6c-e368346718a6",
-      "LORA"
-    ],
-    [
       "2d094a15-fef9-4d24-a2dd-8d3e0cee54dc",
       "IE-Fets-C"
+    ],
+    [
+      "3c731236-72d1-4da1-87eb-4e69d9f9de6e",
+      "IE-FETS-NoOp-A"
+    ],
+    [
+      "e04c2199-242b-4a53-bc3f-d16725b8f4ff",
+      "IE-FETS-NoOp-C"
     ]
   ],
   "text_variables": {}
