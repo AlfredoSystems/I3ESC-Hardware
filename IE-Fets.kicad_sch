@@ -5,28 +5,28 @@
 	(uuid "de38d2ae-4b68-419f-b40e-ebd6f101beb8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "AlfredoSymbols:YJG150N03A"
+		(symbol "AlfredoSymbols:HYG090ND06LS1C2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 7.62 0)
+			(property "Reference" "Q"
+				(at -0.762 7.874 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "YJG150N03A"
-				(at -5.08 5.08 0)
+			(property "Value" ""
+				(at -2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
-				(at 0 -12.7 0)
+			(property "Footprint" "AlfredoFootprints:PQFN8L"
+				(at -2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -34,8 +34,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at 11.43 7.62 0)
+			(property "Datasheet" "https://www.lcsc.com/product-detail/MOSFETs_HUAYI-HYG050N08NS1C2_C3040445.html"
+				(at -2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,6 +44,15 @@
 				)
 			)
 			(property "Description" ""
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C3040445"
 				(at 0 0 0)
 				(effects
 					(font
@@ -52,9 +61,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "YJG150N03A_0_1"
+			(symbol "HYG090ND06LS1C2_1_1"
 				(rectangle
-					(start -5.08 3.81)
+					(start -5.08 6.35)
 					(end 5.08 -3.81)
 					(stroke
 						(width 0)
@@ -64,56 +73,10 @@
 						(type background)
 					)
 				)
-				(rectangle
-					(start -3.81 8.89)
-					(end -3.81 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 8.89)
-					(end -3.81 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 8.89)
-					(end -3.81 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 8.89)
-					(end -3.81 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "YJG150N03A_1_1"
 				(pin input line
-					(at -1.27 -6.35 90)
+					(at -7.62 5.08 0)
 					(length 2.54)
-					(name "S"
+					(name "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -129,9 +92,9 @@
 					)
 				)
 				(pin input line
-					(at 1.27 -6.35 90)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "S"
+					(name "G1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -147,9 +110,9 @@
 					)
 				)
 				(pin input line
-					(at 3.81 -6.35 90)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "S"
+					(name "S2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -165,9 +128,9 @@
 					)
 				)
 				(pin input line
-					(at -7.62 0 0)
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "G"
+					(name "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -183,9 +146,9 @@
 					)
 				)
 				(pin input line
-					(at 3.81 6.35 270)
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "D"
+					(name "D2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -193,6 +156,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -459,203 +440,6 @@
 				)
 			)
 		)
-		(symbol "YJG150N03A_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "YJG150N03A_1"
-				(at -5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 11.43 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "YJG150N03A_1_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -3.81 8.89)
-					(end -3.81 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 8.89)
-					(end -3.81 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 8.89)
-					(end -3.81 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -3.81 8.89)
-					(end -3.81 8.89)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "YJG150N03A_1_1_1"
-				(pin input line
-					(at -1.27 -6.35 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 1.27 -6.35 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 -6.35 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 6.35 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -754,38 +538,30 @@
 		)
 	)
 	(junction
-		(at 130.81 55.88)
+		(at 171.45 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ffdb2e2-f0c8-4b29-b280-8bc1aa8cb319")
+		(uuid "19aa3775-78ba-4cc0-b6dc-acfcde6309dd")
 	)
 	(junction
-		(at 133.35 76.2)
+		(at 148.59 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6619fdc0-2dac-4b0a-bf8a-654fbd8ced49")
-	)
-	(junction
-		(at 130.81 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8656a239-0e5d-437c-b729-e42a0f26e2d1")
-	)
-	(junction
-		(at 133.35 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8dd70b52-c7b8-442a-a72e-944a97aa7451")
-	)
-	(junction
-		(at 133.35 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c08a0808-e2ce-4db7-8f8e-fa786d0b5053")
+		(uuid "cc9f82a6-71ca-4626-8c6b-62aaf62ded2a")
 	)
 	(wire
 		(pts
-			(xy 109.22 49.53) (xy 111.76 49.53)
+			(xy 171.45 55.88) (xy 173.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205e9479-2bf5-46c7-9c92-aaf41aec1b60")
+	)
+	(wire
+		(pts
+			(xy 129.54 44.45) (xy 132.08 44.45)
 		)
 		(stroke
 			(width 0)
@@ -795,13 +571,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 59.69) (xy 133.35 59.69)
+			(xy 171.45 52.07) (xy 171.45 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28fc308b-225a-401e-a056-5b69351a00b2")
+		(uuid "2336858e-bb79-4df8-8c7b-b59df31f46c5")
+	)
+	(wire
+		(pts
+			(xy 129.54 55.88) (xy 148.59 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24dd91d1-45db-48e7-9101-a343e4f331eb")
 	)
 	(wire
 		(pts
@@ -815,27 +601,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 55.88) (xy 130.81 55.88)
+			(xy 148.59 46.99) (xy 148.59 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "71505c34-e4af-4eb8-903d-f0bc913bc457")
+		(uuid "52376556-5665-4482-ac93-202ce8fd6fb7")
 	)
 	(wire
 		(pts
-			(xy 133.35 55.88) (xy 133.35 59.69)
+			(xy 151.13 52.07) (xy 153.67 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7202b368-1cc2-4226-ac43-88311a39ab20")
+		(uuid "590d37fe-b67a-4362-8a2c-00421debf6e0")
 	)
 	(wire
 		(pts
-			(xy 133.35 36.83) (xy 133.35 43.18)
+			(xy 168.91 33.02) (xy 168.91 44.45)
 		)
 		(stroke
 			(width 0)
@@ -845,17 +631,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 59.69) (xy 242.57 59.69)
+			(xy 151.13 52.07) (xy 151.13 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "833697aa-8126-4a91-887e-bc37d239583f")
+		(uuid "8b2cc9f9-c1c7-4805-90ca-9e8e9bdc2888")
 	)
 	(wire
 		(pts
-			(xy 119.38 69.85) (xy 121.92 69.85)
+			(xy 139.7 49.53) (xy 153.67 49.53)
 		)
 		(stroke
 			(width 0)
@@ -865,27 +651,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 76.2) (xy 133.35 78.74)
+			(xy 148.59 46.99) (xy 153.67 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fdf6411-95ed-4753-b734-7dd21ec06c39")
+		(uuid "9b214fe9-9d6c-4fe9-b59d-84e3fd4f5750")
 	)
 	(wire
 		(pts
-			(xy 133.35 59.69) (xy 133.35 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad76fc11-e27a-4ba9-b2f2-4cbdd3cb80c3")
-	)
-	(wire
-		(pts
-			(xy 109.22 69.85) (xy 111.76 69.85)
+			(xy 129.54 49.53) (xy 132.08 49.53)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +671,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 49.53) (xy 121.92 49.53)
+			(xy 139.7 44.45) (xy 153.67 44.45)
 		)
 		(stroke
 			(width 0)
@@ -905,33 +681,23 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 76.2) (xy 130.81 76.2)
+			(xy 168.91 52.07) (xy 171.45 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3f4389b-8ff9-4a83-af4e-442930a476e6")
+		(uuid "e412fa3d-6e13-4756-ae23-c1c55c59d869")
 	)
 	(wire
 		(pts
-			(xy 130.81 55.88) (xy 133.35 55.88)
+			(xy 148.59 55.88) (xy 171.45 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd274c59-866c-469a-8d3c-2cf67e2d010f")
-	)
-	(wire
-		(pts
-			(xy 130.81 76.2) (xy 133.35 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fed61b7c-2d59-4402-bde0-afe6020997b2")
+		(uuid "ee0cda5a-d0e1-4b75-a260-1a2e9e179d82")
 	)
 	(text "gate resitors can be as low as 3.6 ohms?"
 		(exclude_from_sim no)
@@ -969,7 +735,7 @@
 	)
 	(hierarchical_label "GLx"
 		(shape input)
-		(at 109.22 69.85 180)
+		(at 129.54 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -981,7 +747,7 @@
 	)
 	(hierarchical_label "VOUT"
 		(shape input)
-		(at 242.57 59.69 0)
+		(at 173.99 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -993,7 +759,7 @@
 	)
 	(hierarchical_label "VFET"
 		(shape input)
-		(at 133.35 36.83 180)
+		(at 168.91 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1005,7 +771,7 @@
 	)
 	(hierarchical_label "SHx"
 		(shape input)
-		(at 109.22 59.69 180)
+		(at 129.54 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1017,7 +783,7 @@
 	)
 	(hierarchical_label "GHx"
 		(shape input)
-		(at 109.22 49.53 180)
+		(at 129.54 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1029,7 +795,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 49.53 270)
+		(at 135.89 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1037,7 +803,7 @@
 		(dnp no)
 		(uuid "03f42240-2a7c-4ae7-aeee-b592df634a60")
 		(property "Reference" "R19"
-			(at 115.57 49.53 90)
+			(at 135.89 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +811,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 115.57 46.99 90)
+			(at 135.89 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +819,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 115.57 47.752 90)
+			(at 135.89 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +828,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.html"
-			(at 115.57 49.53 0)
+			(at 135.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 49.53 0)
+			(at 135.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +846,7 @@
 			)
 		)
 		(property "LCSC" "C25077"
-			(at 115.57 49.53 0)
+			(at 135.89 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +952,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115.57 69.85 270)
+		(at 135.89 49.53 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1194,7 +960,7 @@
 		(dnp no)
 		(uuid "a0b74e91-1868-4ca2-bfbd-43c16674d7e1")
 		(property "Reference" "R21"
-			(at 115.57 69.85 90)
+			(at 135.89 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +968,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 115.57 67.31 90)
+			(at 135.89 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +976,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 115.57 68.072 90)
+			(at 135.89 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +985,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF100JTCE_C25077.html"
-			(at 115.57 69.85 0)
+			(at 135.89 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1228,7 +994,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 69.85 0)
+			(at 135.89 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1237,7 +1003,7 @@
 			)
 		)
 		(property "LCSC" "C25077"
-			(at 115.57 69.85 0)
+			(at 135.89 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,7 +1051,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uF,50V"
+		(property "Value" "4.7uF, 50V"
 			(at 80.01 58.42 0)
 			(effects
 				(font
@@ -1353,36 +1119,33 @@
 		)
 	)
 	(symbol
-		(lib_name "YJG150N03A_1")
-		(lib_id "AlfredoSymbols:YJG150N03A")
-		(at 129.54 49.53 0)
+		(lib_id "AlfredoSymbols:HYG090ND06LS1C2")
+		(at 161.29 46.99 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d42a8b29-0a02-4958-b6e8-4e351b8caef7")
-		(property "Reference" "Q1"
-			(at 135.89 45.7199 0)
+		(uuid "af0486b7-d666-44ce-adcc-227efc8cf3ef")
+		(property "Reference" "Q10"
+			(at 161.29 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "YJG150N03A"
-			(at 135.89 48.2599 0)
+		(property "Value" "~"
+			(at 161.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
-			(at 129.54 62.23 0)
+		(property "Footprint" "AlfredoFootprints:PQFN8L"
+			(at 158.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1390,8 +1153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJG150N03A_C919573.html"
-			(at 140.97 41.91 0)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/MOSFETs_HUAYI-HYG050N08NS1C2_C3040445.html"
+			(at 158.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1163,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 49.53 0)
+			(at 158.75 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,138 +1171,45 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C919573"
-			(at 129.54 49.53 0)
+		(property "LCSC" "C3040445"
+			(at 161.29 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "5056940a-e535-4948-8543-ad9f3ad7075f")
 		)
 		(pin "2"
-			(uuid "40f790ed-87ab-41a8-84ca-2df1c6fdb852")
+			(uuid "d9e46d8e-8a3f-434a-b6d0-0aaacb7ea753")
 		)
 		(pin "3"
-			(uuid "df1d0a46-17de-4f72-bbd6-b1faca16e733")
+			(uuid "6502dcc4-7db0-4087-a6ac-0d8519a663ff")
 		)
 		(pin "4"
-			(uuid "8d992672-ca72-428c-9018-35b3ea71d2ca")
+			(uuid "580ea484-5ea8-41ba-b227-398412170054")
+		)
+		(pin "6"
+			(uuid "e2a0dd6b-4fe6-4db6-a568-dd47f29905e3")
 		)
 		(pin "5"
-			(uuid "f3e2265d-75e8-4e5f-912b-a9df7234796e")
+			(uuid "1854a69b-6498-421c-95b9-da44260dae8f")
+		)
+		(pin "1"
+			(uuid "94b7c9ad-214f-4f43-9b1e-62c1e603a78f")
 		)
 		(instances
 			(project "I3ESC"
 				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3/dd0aac2e-62bc-46c0-bbcd-34b6d0f35d42"
-					(reference "Q1")
+					(reference "Q10")
 					(unit 1)
 				)
 				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3/946463c1-fa90-48b3-b40c-04201074b27a"
-					(reference "Q2")
+					(reference "U6")
 					(unit 1)
 				)
 				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3/2d094a15-fef9-4d24-a2dd-8d3e0cee54dc"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AlfredoSymbols:YJG150N03A")
-		(at 129.54 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eded7d0d-d038-48dd-ae31-deaaee813ecb")
-		(property "Reference" "Q4"
-			(at 135.89 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "YJG150N03A"
-			(at 135.89 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
-			(at 129.54 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/MOSFETs_Yangzhou-Yangjie-Elec-Tech-YJG150N03A_C919573.html"
-			(at 140.97 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C919573"
-			(at 129.54 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5f15251-79a7-4255-ad76-178c10191162")
-		)
-		(pin "2"
-			(uuid "b5061bac-b459-4fd5-afd0-3d479cd195f9")
-		)
-		(pin "3"
-			(uuid "6c2ebace-fc4e-41b7-ac14-f6bca2c68e60")
-		)
-		(pin "4"
-			(uuid "dc2125e0-7ad2-4d4d-941a-549e615dfc3c")
-		)
-		(pin "5"
-			(uuid "550b31fd-524d-436f-8dae-e5b3bf2e512c")
-		)
-		(instances
-			(project "I3ESC"
-				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3/dd0aac2e-62bc-46c0-bbcd-34b6d0f35d42"
-					(reference "Q4")
-					(unit 1)
-				)
-				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3/946463c1-fa90-48b3-b40c-04201074b27a"
-					(reference "Q5")
-					(unit 1)
-				)
-				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3/2d094a15-fef9-4d24-a2dd-8d3e0cee54dc"
-					(reference "Q6")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -1547,7 +1217,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 78.74 0)
+		(at 151.13 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1556,7 +1226,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb6b1e27-bc80-4694-a5bc-ae1b903d9ae0")
 		(property "Reference" "#PWR0103"
-			(at 133.35 85.09 0)
+			(at 151.13 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 83.185 0)
+			(at 151.13 75.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 78.74 0)
+			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 78.74 0)
+			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,7 +1261,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 78.74 0)
+			(at 151.13 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
