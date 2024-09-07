@@ -8850,12 +8850,6 @@
 		(uuid "1067f634-1c22-4688-a38f-02e5ed4aff03")
 	)
 	(junction
-		(at 246.38 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11bf8b14-76a0-4fa7-bef2-caa8db607b7e")
-	)
-	(junction
 		(at 184.15 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9138,12 +9132,6 @@
 		(uuid "65b304ef-dc22-46b1-9761-66e8d41f48a9")
 	)
 	(junction
-		(at 248.92 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66fe5db2-81e8-4bed-bf47-c3ce35f7febf")
-	)
-	(junction
 		(at 252.73 -59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9324,6 +9312,12 @@
 		(uuid "a0f488f2-9e0c-45d7-9d1b-2ef9eef0cdab")
 	)
 	(junction
+		(at 248.92 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2a3d357-77fa-47b9-bc57-f4280d39491f")
+	)
+	(junction
 		(at 81.28 -100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9376,6 +9370,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b13bc576-f450-41b7-a8a8-90be81d6c53d")
+	)
+	(junction
+		(at 246.38 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b207100b-ee0e-4f2e-8135-0453be393c0f")
 	)
 	(junction
 		(at -73.66 86.36)
@@ -9929,16 +9929,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 99.06) (xy 250.19 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f17b937-e7bc-4281-822d-4986a78b117c")
-	)
-	(wire
-		(pts
 			(xy 236.22 -58.42) (xy 236.22 -52.07)
 		)
 		(stroke
@@ -10449,7 +10439,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 101.6) (xy 250.19 101.6)
+			(xy 238.76 101.6) (xy 246.38 101.6)
 		)
 		(stroke
 			(width 0)
@@ -11219,6 +11209,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 99.06) (xy 250.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab57c4c-685a-45ab-9b69-7a44d35c2652")
+	)
+	(wire
+		(pts
 			(xy 233.68 27.94) (xy 264.16 27.94)
 		)
 		(stroke
@@ -11349,16 +11349,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 101.6) (xy 248.92 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71874dc9-f779-4c2b-8f00-f64f47c08231")
-	)
-	(wire
-		(pts
 			(xy -111.76 119.38) (xy -81.28 119.38)
 		)
 		(stroke
@@ -11426,6 +11416,16 @@
 			(type default)
 		)
 		(uuid "7668305c-141d-45a9-82c9-9d10a17ac1b1")
+	)
+	(wire
+		(pts
+			(xy 246.38 101.6) (xy 250.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7717752b-9698-4343-9c57-91fe3cf4fe7b")
 	)
 	(wire
 		(pts
@@ -12049,16 +12049,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 74.93) (xy 246.38 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a593793e-c7a3-4a5d-aaff-aea93617bcfd")
-	)
-	(wire
-		(pts
 			(xy -91.44 -68.58) (xy -72.39 -68.58)
 		)
 		(stroke
@@ -12159,6 +12149,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 80.01) (xy 248.92 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4611ba-ff2b-42f3-920f-0623785002a0")
+	)
+	(wire
+		(pts
 			(xy -15.24 -60.96) (xy -7.62 -60.96)
 		)
 		(stroke
@@ -12239,7 +12239,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 99.06) (xy 246.38 99.06)
+			(xy 234.95 99.06) (xy 248.92 99.06)
 		)
 		(stroke
 			(width 0)
@@ -13019,13 +13019,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 80.01) (xy 248.92 101.6)
+			(xy 246.38 74.93) (xy 246.38 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e622db74-257d-4da0-a49c-11823f9bb860")
+		(uuid "e69f93c1-b259-4f2f-a269-e6624345847b")
 	)
 	(wire
 		(pts
@@ -13136,6 +13136,16 @@
 			(type default)
 		)
 		(uuid "eb2af7f9-2db0-4699-aaba-d85d88d7615c")
+	)
+	(wire
+		(pts
+			(xy -45.72 129.54) (xy -27.94 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6d0d38-0c86-4cc5-8ea0-65ff25414cd5")
 	)
 	(wire
 		(pts
@@ -13359,6 +13369,16 @@
 	)
 	(wire
 		(pts
+			(xy -27.94 129.54) (xy -27.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97c08b2-d599-42a7-bc83-040840ee3181")
+	)
+	(wire
+		(pts
 			(xy 48.26 130.81) (xy 48.26 133.35)
 		)
 		(stroke
@@ -13418,7 +13438,7 @@
 		)
 		(uuid "0eda0c69-a7d2-4f63-9ebb-a58a4decf833")
 	)
-	(text "long term:\n- max VIN is 18V from buck converter (upgrade?)\n- switch to smaller pkg drv\n\nSIG TODO:\n- better test probes\n- attach TEMP1 and TEMP2 to VOUT pins\n- fix wireless charger\n- change wireless chips to 0603\n\nPOWER TODO:\n- find power diode for D8\n-pick new barrel jack?\n\ndone:\n- improve SWD interface? (or is 4 pin jst good?)\n- change G432 to G474\n- Boot button is actually rst (fix this)\n- add boot button for DFU\n- no way to measure battery current sns with barrel out?\n- mode buttons with indicator\n- Bulk up RPP fet -> deleted\n- do I need a power switch? no\n- VREF inductor\n- fix stm caps\n- Breakout SW-debug\n- pick new SWD/I2C pins\n"
+	(text "long term:\n- max VIN is 18V from buck converter (upgrade?)\n- switch to smaller pkg drv\n\nSIG TODO:\n- better test probes\n\nPOWER TODO:\n-pick new barrel jack?\n\ndone:\n- improve SWD interface? (or is 4 pin jst good?)\n- change G432 to G474\n- Boot button is actually rst (fix this)\n- add boot button for DFU\n- no way to measure battery current sns with barrel out?\n- mode buttons with indicator\n- Bulk up RPP fet -> deleted\n- do I need a power switch? no\n- VREF inductor\n- fix stm caps\n- Breakout SW-debug\n- pick new SWD/I2C pins\n- attach TEMP1 and TEMP2 to VOUT pins\n- fix wireless charger\n- change wireless chips to 0603\n- find power diode for D8\n"
 		(exclude_from_sim no)
 		(at -60.706 32.512 0)
 		(effects
@@ -13510,7 +13530,7 @@
 	)
 	(global_label "OPAMP5_VOUT"
 		(shape input)
-		(at -45.72 129.54 0)
+		(at -27.94 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13520,7 +13540,7 @@
 		)
 		(uuid "0295ff8d-54b4-4595-a698-00fa64374288")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -29.43 129.54 0)
+			(at -11.65 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14786,7 +14806,7 @@
 	)
 	(global_label "TEMP_2"
 		(shape input)
-		(at -6.35 124.46 0)
+		(at -27.94 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14796,7 +14816,7 @@
 		)
 		(uuid "8ab0cee2-ddca-4f06-934c-2b65d713d1e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 3.6503 124.46 0)
+			(at -17.9397 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14846,6 +14866,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Qi_CC1"
+		(shape input)
+		(at 312.42 -33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "918a03e5-d004-4bdc-bf40-db9778ea3e45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.0576 -33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15347,6 +15389,28 @@
 		(uuid "c830a564-a9d7-4d0a-a48d-3af07dae962c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 55.4179 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Qi_CC2"
+		(shape input)
+		(at 312.42 -35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8a25a4e-22ed-443c-9bf6-0bd5491feb42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 322.0576 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16372,7 +16436,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 294.9448 -81.28 0)
 			(effects
 				(font
@@ -16381,7 +16445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_Samsung-Electro-Mechanics-Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_YAGEO-YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 295.91 -77.47 0)
 			(effects
 				(font
@@ -16399,7 +16463,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663 "
 			(at 295.91 -77.47 0)
 			(effects
 				(font
@@ -17183,7 +17247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.832 -97.79 90)
 			(effects
 				(font
@@ -17192,7 +17256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0603WAF1003T5E_C25803.html"
 			(at 308.61 -97.79 0)
 			(effects
 				(font
@@ -17210,7 +17274,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC" "C25803 "
 			(at 308.61 -97.79 0)
 			(effects
 				(font
@@ -17320,81 +17384,6 @@
 			(project "I3ESC"
 				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 312.42 -35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1faae994-9de4-40d3-b88f-3aaa2bc70cad")
-		(property "Reference" "TP5"
-			(at 316.992 -35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_CC2"
-			(at 321.056 -35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AlfredoFootprints:GE_TestPoint_Loop"
-			(at 312.42 -30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 312.42 -30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 312.42 -35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "~"
-			(at 312.42 -35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37af135b-9ff1-4aa6-8148-659bad961e08")
-		)
-		(instances
-			(project "I3ESC"
-				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -17745,7 +17734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/LED-Indication-Discrete_XINGLIGHT-XL-1608UGC-04_C965804.html"
 			(at 344.17 -54.61 0)
 			(effects
 				(font
@@ -17763,7 +17752,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "~"
+		(property "LCSC" "C965804"
 			(at 344.17 -54.61 0)
 			(effects
 				(font
@@ -18297,6 +18286,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 73.66 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "~"
 			(at 73.66 138.43 0)
 			(effects
 				(font
@@ -19090,7 +19088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 350.52 -100.6348 0)
 			(effects
 				(font
@@ -19099,7 +19097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Cctc-TCC0402X7R153K500AT/C696852"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-FH-Guangdong-Fenghua-Advanced-Tech-0603B153K500NT_C1596.html"
 			(at 346.71 -101.6 0)
 			(effects
 				(font
@@ -19117,7 +19115,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C696852"
+		(property "LCSC" "C1596 "
 			(at 346.71 -101.6 0)
 			(effects
 				(font
@@ -20234,81 +20232,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 312.42 -33.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e114afb-c0e4-41e3-8301-860d3eb03b37")
-		(property "Reference" "TP6"
-			(at 316.992 -33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_CC1"
-			(at 321.056 -33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AlfredoFootprints:GE_TestPoint_Loop"
-			(at 312.42 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 312.42 -27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 312.42 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "~"
-			(at 312.42 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9cfbf29-8c40-4758-be82-9876b1e40f72")
-		)
-		(instances
-			(project "I3ESC"
-				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at -129.54 140.97 0)
 		(mirror y)
@@ -21070,7 +20993,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 327.9648 -96.52 0)
 			(effects
 				(font
@@ -21079,7 +21002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Cctc-TCC0402X7R153K500AT/C696852"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-FH-Guangdong-Fenghua-Advanced-Tech-0603B153K500NT_C1596.html"
 			(at 328.93 -92.71 0)
 			(effects
 				(font
@@ -21097,7 +21020,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C696852"
+		(property "LCSC" "C1596 "
 			(at 328.93 -92.71 0)
 			(effects
 				(font
@@ -21218,7 +21141,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Red"
+		(property "Value" "LED_YELLOW"
 			(at 345.44 -64.77 0)
 			(effects
 				(font
@@ -21235,7 +21158,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Everlight-Elec-Everlight-Elec-19-213-Y2C-CQ2R2L-3TCY_C72038.html"
 			(at 344.17 -62.23 0)
 			(effects
 				(font
@@ -21253,7 +21176,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "~"
+		(property "LCSC" "C72038"
 			(at 344.17 -62.23 0)
 			(effects
 				(font
@@ -21311,7 +21234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/LED-Indication-Discrete_XINGLIGHT-XL-1608UGC-04_C965804.html"
 			(at 29.21 95.25 0)
 			(effects
 				(font
@@ -21329,7 +21252,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "~"
+		(property "LCSC" "C965804"
 			(at 29.21 95.25 0)
 			(effects
 				(font
@@ -21379,7 +21302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 314.96 -99.822 90)
 			(effects
 				(font
@@ -21388,7 +21311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26633-0402WGF3301TCE/C25890"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0603WAF3301T5E_C22978.html"
 			(at 314.96 -101.6 0)
 			(effects
 				(font
@@ -21397,7 +21320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 314.96 -101.6 0)
 			(effects
 				(font
@@ -21406,7 +21329,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25890"
+		(property "LCSC" "C22978 "
 			(at 314.96 -101.6 0)
 			(effects
 				(font
@@ -21457,7 +21380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 334.01 -64.008 90)
 			(effects
 				(font
@@ -21466,7 +21389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0603WAF1001T5E_C21190.html"
 			(at 334.01 -62.23 0)
 			(effects
 				(font
@@ -21484,7 +21407,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C21190 "
 			(at 334.01 -62.23 0)
 			(effects
 				(font
@@ -21632,6 +21555,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 170 MHz, 1.71-3.6V, 52 GPIO, LQFP64"
+			(at -63.5 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C521608"
 			(at -63.5 152.4 0)
 			(effects
 				(font
@@ -21868,7 +21800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 334.01 -56.388 90)
 			(effects
 				(font
@@ -21877,7 +21809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0603WAF1001T5E_C21190.html"
 			(at 334.01 -54.61 0)
 			(effects
 				(font
@@ -21895,7 +21827,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C21190 "
 			(at 334.01 -54.61 0)
 			(effects
 				(font
@@ -23173,7 +23105,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 264.4648 -38.1 0)
 			(effects
 				(font
@@ -23182,7 +23114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_Samsung-Electro-Mechanics-Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_YAGEO-YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 265.43 -34.29 0)
 			(effects
 				(font
@@ -23200,7 +23132,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663 "
 			(at 265.43 -34.29 0)
 			(effects
 				(font
@@ -23317,7 +23249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 306.832 -87.63 90)
 			(effects
 				(font
@@ -23326,7 +23258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0402WGF1002TCE_C25744.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0603WAF1002T5E_C25804.html"
 			(at 308.61 -87.63 0)
 			(effects
 				(font
@@ -23335,7 +23267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 308.61 -87.63 0)
 			(effects
 				(font
@@ -23344,7 +23276,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25804 "
 			(at 308.61 -87.63 0)
 			(effects
 				(font
@@ -23613,7 +23545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 337.312 -92.71 90)
 			(effects
 				(font
@@ -23622,7 +23554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26522-0402WGF3302TCE/C25779"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0603WAF3302T5E_C4216.html"
 			(at 339.09 -92.71 0)
 			(effects
 				(font
@@ -23631,7 +23563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 339.09 -92.71 0)
 			(effects
 				(font
@@ -23640,7 +23572,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25779"
+		(property "LCSC" "C4216 "
 			(at 339.09 -92.71 0)
 			(effects
 				(font
@@ -24521,7 +24453,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_RED"
+		(property "Value" "LED_YELLOW"
 			(at 27.94 99.06 0)
 			(effects
 				(font
@@ -24538,7 +24470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_Everlight-Elec-Everlight-Elec-19-213-Y2C-CQ2R2L-3TCY_C72038.html"
 			(at 29.21 101.6 0)
 			(effects
 				(font
@@ -24556,7 +24488,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "~"
+		(property "LCSC" "C72038"
 			(at 29.21 101.6 0)
 			(effects
 				(font
@@ -24742,7 +24674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VCC-bypass"
+		(property "Value" "VCC_bypass"
 			(at -38.1 -91.44 0)
 			(effects
 				(font
@@ -25694,7 +25626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 341.122 -44.45 90)
 			(effects
 				(font
@@ -25703,7 +25635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0603WAF1003T5E_C25803.html"
 			(at 342.9 -44.45 0)
 			(effects
 				(font
@@ -25721,7 +25653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC" "C25803 "
 			(at 342.9 -44.45 0)
 			(effects
 				(font
@@ -26444,7 +26376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/LED-Indication-Discrete_XINGLIGHT-XL-1608UBC-04_C965807.html"
 			(at 29.21 88.9 0)
 			(effects
 				(font
@@ -26462,7 +26394,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "~"
+		(property "LCSC" "C965807"
 			(at 29.21 88.9 0)
 			(effects
 				(font
@@ -27910,7 +27842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 332.232 -44.45 90)
 			(effects
 				(font
@@ -27919,7 +27851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF1003TCE_C25741.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor---Surface-Mount_UNI-ROYALUniroyal-Elec-UNI-ROYALUniroyal-Elec-0603WAF1003T5E_C25803.html"
 			(at 334.01 -44.45 0)
 			(effects
 				(font
@@ -27937,7 +27869,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC" "C25803 "
 			(at 334.01 -44.45 0)
 			(effects
 				(font
@@ -28509,7 +28441,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 284.1752 -81.28 0)
 			(effects
 				(font
@@ -28518,7 +28450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_Samsung-Electro-Mechanics-Samsung-Electro-Mechanics-CL05B104KB54PNC_C307331.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC---SMD-SMT_YAGEO-YAGEO-CC0603KRX7R9BB104_C14663.html"
 			(at 283.21 -77.47 0)
 			(effects
 				(font
@@ -28536,7 +28468,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C14663 "
 			(at 283.21 -77.47 0)
 			(effects
 				(font
@@ -30403,6 +30335,44 @@
 		)
 	)
 	(sheet
+		(at 208.28 -25.4)
+		(size 12.7 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86097b7e-701a-44d7-85c1-73aa074ef594")
+		(property "Sheetname" "Untitled Sheet"
+			(at 208.28 -26.1116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 208.28 -14.6554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "I3ESC"
+				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 186.69 49.53)
 		(size 20.32 12.7)
 		(fields_autoplaced yes)
@@ -30507,6 +30477,82 @@
 			(project "I3ESC"
 				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3"
 					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 143.51 34.29)
+		(size 26.67 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ea02baf-bda5-4fd9-a6bf-1d6c4a932e2f")
+		(property "Sheetname" "Untitled Sheet"
+			(at 143.51 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 143.51 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "I3ESC"
+				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 21.59)
+		(size 22.86 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a20763fc-c0e2-4d82-9961-2bada1e56f7c")
+		(property "Sheetname" "Untitled Sheet"
+			(at 17.78 20.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 17.78 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "I3ESC"
+				(path "/718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3"
+					(page "10")
 				)
 			)
 		)
