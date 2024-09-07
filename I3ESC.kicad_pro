@@ -617,7 +617,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "../../../Downloads/to delete/I3esch",
+    "plot_directory": "I3ESC-pdfs/",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -634,27 +634,39 @@
       "Root"
     ],
     [
-      "8d23516b-c655-4e11-8a7c-0959e3d1bdc0",
+      "506038e9-007b-41c4-a0cd-1611a9d8069f",
+      "IE-USB"
+    ],
+    [
+      "f9f3b966-25f3-476d-88a2-e29d45e83b47",
+      "IE-QI-WIRELESS"
+    ],
+    [
+      "84671003-198d-40bc-8bc3-3a4dce5a10b6",
+      "IE-PHASES"
+    ],
+    [
+      "81b3af61-0542-47dc-9960-c7ce80df099a",
       "IE-FETS-1A"
     ],
     [
-      "1583af82-cd91-4bb1-9cfa-1d45bfe0caf5",
+      "801ae08c-355d-42ac-8394-6d97470a64e4",
       "IE-FETS-1B"
     ],
     [
-      "e15901a8-6063-4fec-b673-48ba46808402",
+      "c03fe97e-380e-4cdb-93ea-8f2012995fb1",
       "IE-FETS-1C"
     ],
     [
-      "3c731236-72d1-4da1-87eb-4e69d9f9de6e",
+      "84d56594-9716-4921-9f24-5a36cb1a9cb6",
       "IE-FETS-2A"
     ],
     [
-      "33fe893d-1f13-49a8-b542-03d4b71301ae",
+      "b85053ab-aa5d-4511-8f8a-a66928647276",
       "IE-FETS-2B"
     ],
     [
-      "e04c2199-242b-4a53-bc3f-d16725b8f4ff",
+      "99cfb11d-17c1-4a1f-ac73-7e22b9e27d62",
       "IE-FETS-2C"
     ]
   ],

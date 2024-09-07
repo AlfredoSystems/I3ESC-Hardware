@@ -200,7 +200,7 @@
 	(net 72 "STM_LED1")
 	(net 73 "OPAMP3_VOUT")
 	(net 74 "unconnected-(U6-SHIELD-PadS1)")
-	(net 75 "/PGND")
+	(net 75 "/IE-QI-WIRELESS/PGND")
 	(net 76 "Net-(Q4-G2)")
 	(net 77 "Net-(Q5-G1)")
 	(net 78 "unconnected-(Q5-S1-Pad1)")
@@ -245,7 +245,7 @@
 	(net 117 "Net-(Q6-G1)")
 	(net 118 "Net-(C30-Pad1)")
 	(net 119 "OPAMP2_V+")
-	(net 120 "/V_QI_USB")
+	(net 120 "/IE-QI-WIRELESS/V_QI_USB")
 	(net 121 "unconnected-(U9-SHIELD-PadS1)")
 	(net 122 "unconnected-(U9-SHIELD-PadS1)_0")
 	(net 123 "unconnected-(U9-SHIELD-PadS1)_1")
@@ -297,6 +297,7 @@
 		(property "Reference" "C30"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d863e36f-05ea-4190-89ca-dc298b1bdd37")
 			(effects
 				(font
@@ -366,9 +367,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/395cb3e3-f524-4b86-a042-396508a062a7")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/29b7117d-7ee7-4860-85ee-17044a2996d3")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -1240,6 +1241,7 @@
 		(property "Reference" "C28"
 			(at 0 -1.16 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f5e63b94-d180-4381-9d23-732c999c191d")
 			(effects
 				(font
@@ -1309,9 +1311,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ded13e6f-4e45-4bd7-81ff-3ff8f23fdaf1")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/163fdc34-e8f3-4b64-ad32-3f0577765eeb")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -2666,9 +2668,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/29c89efa-d572-4c14-88c4-e1c4d659a29b")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/6f82dda9-be35-4255-98ce-657975c4642c")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -4635,9 +4637,9 @@
 			)
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/b52ca858-2ae0-4e74-bab1-447c6f83109f")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/bab01a8e-3858-44c9-a0ee-936538602659")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -6124,9 +6126,9 @@
 			)
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/565a7d33-2e7c-4cc7-92ec-f33a171a4e76")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/1786d8f0-07b0-49e2-96d9-4e0406ab4f73")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -6557,6 +6559,7 @@
 		(property "Reference" "R35"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "11ddd9a1-5d06-4473-ad8d-f1ad582673d4")
 			(effects
 				(font
@@ -6626,9 +6629,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/87fe519a-3e07-4f44-8c92-1dc77dbcd6e9")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/e84e14b6-e3f2-49f5-97ca-f3e4d7c692f7")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -6780,6 +6783,7 @@
 		(property "Reference" "C32"
 			(at 0 -1.16 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "54ab2de4-3c97-4565-8e4e-9fdf77377ba3")
 			(effects
 				(font
@@ -6849,9 +6853,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/7eb4d261-345b-4dfe-94be-8b286f69d9de")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/6029e06c-a3d2-456d-a356-c8f91c7085d0")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -6969,7 +6973,7 @@
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 75 "/PGND")
+			(net 75 "/IE-QI-WIRELESS/PGND")
 			(pintype "passive")
 			(uuid "747b3b1b-9957-4cbd-9431-7f46135cde69")
 		)
@@ -7073,9 +7077,9 @@
 			)
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/5df9573d-1abc-41f3-900a-d16ec841e3bf")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/7e9b1f46-fdd5-4bb4-8e3c-8b0ab8b8f081")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -7244,7 +7248,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 120 "/V_QI_USB")
+			(net 120 "/IE-QI-WIRELESS/V_QI_USB")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6dd3a1e2-82d6-4d59-9cf1-e1070f3e3189")
@@ -10765,9 +10769,9 @@
 			)
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
-		(path "/9c7fc52a-061d-4e4b-8a75-b2dc8b21e385")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/c33b074f-bd9e-4ea2-a05d-43ab98832812")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 0.75)
@@ -13006,9 +13010,9 @@
 			)
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/5e1761fa-6b4e-4d0c-90ad-adf56ed85aaa")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/25621f42-62f6-41e0-91bd-dab92c163be2")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -16633,6 +16637,7 @@
 		(property "Reference" "R34"
 			(at 0 -1.17 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "45dd82e1-c0e7-4241-9081-4f3877cdf410")
 			(effects
 				(font
@@ -16702,9 +16707,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/812184ea-1a89-42a9-8cf3-de8c80cbfb04")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/376a637b-8226-407c-bec8-415df6911037")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -18122,6 +18127,7 @@
 		(property "Reference" "R20"
 			(at 0 -1.17 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "72574e3d-d376-41e9-9613-ee44882fe628")
 			(effects
 				(font
@@ -18191,9 +18197,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/18b6b59c-6fb9-44ab-8a90-6e81b3c730ab")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/bc4742aa-a5b5-4770-b203-822c7232faf6")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -19993,9 +19999,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/2ccc45b1-60bc-457d-bb55-4e94a1d2bc79")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/7d76447b-4744-47fb-8507-cf109663f83c")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -24365,9 +24371,9 @@
 			)
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/9939321b-51cb-4540-b1ad-feb68bc147c6")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/f7f756cf-c548-44e0-ae94-2d89accfb382")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 1.27)
@@ -25031,9 +25037,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/c9f6f345-9a95-46c3-9e5a-d2096ac14788")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/0e065428-6290-45a1-abf1-7992fec39330")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -25063,7 +25069,7 @@
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 75 "/PGND")
+			(net 75 "/IE-QI-WIRELESS/PGND")
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "b4cbd45e-d63e-4469-845b-13464b1cac68")
@@ -25680,9 +25686,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/292f92f9-67fd-43a6-9fe5-b46f741d9c99")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/2abf902f-54e6-4a8e-8fba-b02fad26ccf7")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -25800,7 +25806,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.217391)
-			(net 75 "/PGND")
+			(net 75 "/IE-QI-WIRELESS/PGND")
 			(pintype "passive")
 			(uuid "8f58172c-cb09-4043-81aa-bea155034bba")
 		)
@@ -26736,9 +26742,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/3206cec3-2b55-4807-90d0-7a4c17125a09")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/8eeacd33-b556-4086-9729-e2102587730f")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -30315,6 +30321,7 @@
 		(property "Reference" "R27"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fc77bf60-f356-486a-ad5d-7eff0cff7563")
 			(effects
 				(font
@@ -30384,9 +30391,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/ab25443b-25d6-4f53-9983-f9daba8f262b")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/8b473560-231d-40d5-99df-2ffffaaffeed")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -31281,9 +31288,9 @@
 				)
 			)
 		)
-		(path "/2b86637b-b1ba-4682-a9c2-fac16936420d")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/836d5786-af91-45c5-88ec-a521e4d85948")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.61 2.61)
@@ -31531,7 +31538,7 @@
 			(size 0.8 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 75 "/PGND")
+			(net 75 "/IE-QI-WIRELESS/PGND")
 			(pinfunction "ISENSE")
 			(pintype "input")
 			(uuid "b6144665-fbb3-40d4-9dc7-2e2897d230b3")
@@ -31551,7 +31558,7 @@
 			(size 0.8 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 75 "/PGND")
+			(net 75 "/IE-QI-WIRELESS/PGND")
 			(pinfunction "PGND")
 			(pintype "input")
 			(uuid "19bbda59-f7f9-4c79-9ffb-62af6ddd062b")
@@ -31831,7 +31838,7 @@
 			(size 3.7 3.7)
 			(property pad_prop_heatsink)
 			(layers "F.Cu" "F.Mask")
-			(net 75 "/PGND")
+			(net 75 "/IE-QI-WIRELESS/PGND")
 			(pinfunction "G_PAD")
 			(pintype "input")
 			(zone_connect 2)
@@ -33578,9 +33585,9 @@
 			)
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
-		(path "/e0308523-b47c-49f9-8122-0d4c9959000c")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/749fd5f7-5053-4fa7-aa22-2e6c4888dd13")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5 3.3)
@@ -34482,9 +34489,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/d8a73f21-bec5-44a1-b201-51c4696a5c91")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/e542de25-1248-43e7-80ab-5bc2a98e5459")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -36209,9 +36216,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/e656dcca-fbdd-4aae-812a-93f3203cfa4b")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/1fd5b495-45a0-4baf-a454-954761c8ea51")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -0.91)
@@ -36329,7 +36336,7 @@
 			(size 1.15 1.8)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.217391)
-			(net 75 "/PGND")
+			(net 75 "/IE-QI-WIRELESS/PGND")
 			(pintype "passive")
 			(uuid "b178caeb-a2e8-4b3f-a932-d614f448200a")
 		)
@@ -36434,9 +36441,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/e045696c-a23c-445b-8748-39f986bbc77e")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/b2d035f7-6695-4da8-9ffd-266797fe9e75")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -36563,7 +36570,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 75 "/PGND")
+			(net 75 "/IE-QI-WIRELESS/PGND")
 			(pintype "passive")
 			(uuid "fab017ab-d30b-485a-9fd6-f8d5fb17072b")
 		)
@@ -36659,9 +36666,9 @@
 			)
 		)
 		(property ki_fp_filters "Pin* Test*")
-		(path "/389cc0ad-2114-4f9c-8c45-571b5a57efb5")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/4c411924-836e-4d89-b548-c7408e859463")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_circle
 			(center 0 0)
@@ -38226,6 +38233,7 @@
 		(property "Reference" "R29"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3df6faf2-22d2-45ee-8837-df4bd8370479")
 			(effects
 				(font
@@ -38295,9 +38303,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/63054ef1-6cbc-4faf-a6b0-e471fcca740c")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/ee1a8918-a25d-493d-9bc0-a11e98124805")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -39125,9 +39133,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/abfe3ce3-4797-4975-9a85-e4796f0c7e20")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/2476f12b-31c7-4a1f-8566-fb96fc6ef5f0")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 8.37 0.665)
@@ -39773,6 +39781,7 @@
 		(property "Reference" "R28"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6d78810a-635c-4184-a883-0b5ecfc65279")
 			(effects
 				(font
@@ -39842,9 +39851,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/5fbfd9f7-8125-4867-8ce2-61bb40212c94")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/ad507493-29e5-4a13-b3a8-9449f3e5a250")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -40445,6 +40454,7 @@
 		(property "Reference" "R26"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f8668eba-878c-459e-8482-0a47d44d01df")
 			(effects
 				(font
@@ -40514,9 +40524,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/cf8bf8eb-621c-4bf3-aced-8b6a2627f3cb")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/d69e80a4-f0f1-4387-b30a-2e9096b6c24f")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -40892,6 +40902,7 @@
 		(property "Reference" "C31"
 			(at 0 -1.16 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5ee94fa4-c2e8-406f-8ccc-cd3dbe503eaf")
 			(effects
 				(font
@@ -40961,9 +40972,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/5b08adb2-25d4-4b8b-8056-4ce5df7b1151")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/53f5a547-cb3c-418c-8b42-c7bd8419b937")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -42139,6 +42150,7 @@
 		(property "Reference" "C27"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "188407cd-2a91-493b-8454-b661d98ece33")
 			(effects
 				(font
@@ -42208,9 +42220,9 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/06786c2a-32de-4824-b06c-6967ec755b74")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/cb237535-8c2c-4d5b-a8ef-b71bad60d68a")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -44665,9 +44677,9 @@
 			)
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
-		(path "/3b9cc986-05db-4e7d-98ca-430121634a1c")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/2056bf77-1ad4-4bc8-a8ed-dbf0502ce96b")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.47 4.84)
@@ -44860,7 +44872,7 @@
 			(at -2.4 -2.51 180)
 			(size 0.6 1.16)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 120 "/V_QI_USB")
+			(net 120 "/IE-QI-WIRELESS/V_QI_USB")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "af92b830-7d6f-46e8-8923-ce6595f7af67")
@@ -44905,7 +44917,7 @@
 			(at 2.4 -2.51 180)
 			(size 0.6 1.16)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 120 "/V_QI_USB")
+			(net 120 "/IE-QI-WIRELESS/V_QI_USB")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "a5e40121-0afd-4d1f-b29b-9b936a23a7c1")
@@ -44932,7 +44944,7 @@
 			(at 2.4 -2.51 180)
 			(size 0.6 1.16)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 120 "/V_QI_USB")
+			(net 120 "/IE-QI-WIRELESS/V_QI_USB")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "1d5860a4-4c10-4f2a-b87f-95d2069aec64")
@@ -44977,7 +44989,7 @@
 			(at -2.4 -2.51 180)
 			(size 0.6 1.16)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 120 "/V_QI_USB")
+			(net 120 "/IE-QI-WIRELESS/V_QI_USB")
 			(pinfunction "VBUS")
 			(pintype "passive")
 			(uuid "b51e3e30-c567-4d3c-a650-e86cbd3dc12e")
@@ -45035,9 +45047,9 @@
 			(pintype "passive+no_connect")
 			(uuid "edb6ee50-fd01-4182-a1b4-00a779d4e226")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Palconn_UTC16-G.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -1.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -45728,6 +45740,7 @@
 		(property "Reference" "R9"
 			(at 0 -1.17 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5a0d8d63-7152-42b7-a4d2-0a955147ddbf")
 			(effects
 				(font
@@ -45797,9 +45810,9 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/5e8b1b2b-9b17-406f-a694-bcedf2a29e1c")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/c49ec7d2-e1c2-4051-abff-fa5718ce85a1")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -46470,9 +46483,9 @@
 			)
 		)
 		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/54812c5e-3114-48be-97f3-35e2f78197c3")
-		(sheetname "Root")
-		(sheetfile "I3ESC.kicad_sch")
+		(path "/f9f3b966-25f3-476d-88a2-e29d45e83b47/ce6a2e2a-7a72-425c-95e4-ffbcf2703c17")
+		(sheetname "IE-QI-WIRELESS")
+		(sheetfile "IE-Qi-Wireless.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -47343,9 +47356,9 @@
 			(pintype "passive+no_connect")
 			(uuid "391b5cc5-409c-4ea6-aa12-5116c0cd5450")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Palconn_UTC16-G.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 -1.25 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -48039,17 +48052,6 @@
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "c412fffc-3438-4ed5-b69f-c9f349f449b3")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
 		)
 	)
 	(gr_line
@@ -62734,7 +62736,7 @@
 	)
 	(zone
 		(net 120)
-		(net_name "/V_QI_USB")
+		(net_name "/IE-QI-WIRELESS/V_QI_USB")
 		(layer "F.Cu")
 		(uuid "0dddf8c0-ff4d-448f-a4be-f9382dea4738")
 		(hatch edge 0.5)
@@ -63431,7 +63433,7 @@
 	)
 	(zone
 		(net 75)
-		(net_name "/PGND")
+		(net_name "/IE-QI-WIRELESS/PGND")
 		(layer "F.Cu")
 		(uuid "acf30098-ad70-497c-be3d-99580e372fa7")
 		(hatch edge 0.5)
@@ -66767,7 +66769,7 @@
 	)
 	(zone
 		(net 75)
-		(net_name "/PGND")
+		(net_name "/IE-QI-WIRELESS/PGND")
 		(layer "B.Cu")
 		(uuid "e9cb27ca-9b03-4494-b052-bb23c0d66d0d")
 		(hatch edge 0.5)
