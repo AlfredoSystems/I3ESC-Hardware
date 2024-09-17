@@ -7257,7 +7257,7 @@
 		)
 		(uuid "1e0f6d06-1be6-461a-9000-4d1a2f7def74")
 	)
-	(text "TODO:\n- better test probes\n- FIX I2C/SWD mixup\n-better silk screen\n- pick new barrel jack?\n- test lower gate resistance\n\nlong term ideas:\n- max VIN is 18V from buck converter (upgrade?)\n- switch to smaller pkg drv\n\ndone:\n- attach TEMP1 and TEMP2 to VOUT pins\n- improve SWD interface? (or is 4 pin jst good?)\n- change G432 to G474\n- Boot button is actually rst (fix this)\n- add boot button for DFU\n- no way to measure battery current sns with barrel out?\n- mode buttons with indicator\n- Bulk up RPP fet -> deleted\n- do I need a power switch? no\n- VREF inductor\n- fix stm caps\n- Breakout SW-debug\n- pick new SWD/I2C pins\n- find power diode for D8\n- fix wireless charger\n- change wireless chips to 0603\n"
+	(text "TODO:\n- better test probes\n- FIX I2C/SWD mixup\n-better silk screen\n- pick new barrel jack?\n- test lower gate resistance\n- add back rst button\n\nlong term ideas:\n- max VIN is 18V from buck converter (upgrade?)\n- switch to smaller pkg drv\n\ndone:\n- attach TEMP1 and TEMP2 to VOUT pins\n- improve SWD interface? (or is 4 pin jst good?)\n- change G432 to G474\n- Boot button is actually rst (fix this)\n- add boot button for DFU\n- no way to measure battery current sns with barrel out?\n- mode buttons with indicator\n- Bulk up RPP fet -> deleted\n- do I need a power switch? no\n- VREF inductor\n- fix stm caps\n- Breakout SW-debug\n- pick new SWD/I2C pins\n- find power diode for D8\n- fix wireless charger\n- change wireless chips to 0603\n"
 		(exclude_from_sim no)
 		(at 303.022 186.944 0)
 		(effects
