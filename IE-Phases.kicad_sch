@@ -4066,7 +4066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Diodes-Incorporated-Diodes-Incorporated-SDM20U40-7_C139439.html"
+		(property "Datasheet" ""
 			(at 133.35 105.41 0)
 			(effects
 				(font
@@ -4084,7 +4084,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C139439"
+		(property "LCSC" "C558448 "
 			(at 129.54 105.41 0)
 			(effects
 				(font
@@ -4504,7 +4504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Diodes-Incorporated-Diodes-Incorporated-SDM20U40-7_C139439.html"
+		(property "Datasheet" ""
 			(at 129.54 105.41 0)
 			(effects
 				(font
@@ -4522,7 +4522,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C139439"
+		(property "LCSC" "C558448 "
 			(at 125.73 105.41 0)
 			(effects
 				(font
@@ -4917,7 +4917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Diodes-Incorporated-Diodes-Incorporated-SDM20U40-7_C139439.html"
+		(property "Datasheet" ""
 			(at 133.35 39.37 0)
 			(effects
 				(font
@@ -4935,7 +4935,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C139439"
+		(property "LCSC" "C558448 "
 			(at 129.54 39.37 0)
 			(effects
 				(font
@@ -5422,7 +5422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Diodes-Incorporated-Diodes-Incorporated-SDM20U40-7_C139439.html"
+		(property "Datasheet" ""
 			(at 125.73 105.41 0)
 			(effects
 				(font
@@ -5440,7 +5440,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C139439"
+		(property "LCSC" "C558448 "
 			(at 121.92 105.41 0)
 			(effects
 				(font
@@ -5498,7 +5498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Diodes-Incorporated-Diodes-Incorporated-SDM20U40-7_C139439.html"
+		(property "Datasheet" ""
 			(at 125.73 39.37 0)
 			(effects
 				(font
@@ -5516,7 +5516,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C139439"
+		(property "LCSC" "C558448 "
 			(at 121.92 39.37 0)
 			(effects
 				(font
@@ -6612,7 +6612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_Diodes-Incorporated-Diodes-Incorporated-SDM20U40-7_C139439.html"
+		(property "Datasheet" ""
 			(at 129.54 39.37 0)
 			(effects
 				(font
@@ -6630,7 +6630,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C139439"
+		(property "LCSC" "C558448 "
 			(at 125.73 39.37 0)
 			(effects
 				(font
