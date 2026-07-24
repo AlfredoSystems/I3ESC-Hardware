@@ -51,7 +51,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.1
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -690,7 +690,7 @@
         "uuid": "718f3b0f-9bd0-4d7b-8c07-e00d61b06ce3"
       }
     ],
-    "used_designators": "J13-14,#PWR25,#PWR28",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

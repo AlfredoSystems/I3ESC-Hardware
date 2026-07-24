@@ -1,7 +1,10 @@
 {
     "layout": {
-        "rows": "3",
+        "rows": "4",
         "cols": "3"
+    },
+    "source": {
+        "tolerance": "0mm"
     },
     "tabs": {
         "type": "full"
@@ -13,7 +16,7 @@
         "layer": "Edge.Cuts"
     },
     "framing": {
-        "type": "railstb",
-        "vspace": "0mm"
+        "type": "railslr",
+        "hspace": "0mm"
     }
 }

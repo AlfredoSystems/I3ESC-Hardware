@@ -4265,7 +4265,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "02e34984-69c6-455c-8a8f-8ff6f5af1a49")
 		(property "Reference" "D17"
 			(at 128.27 102.87 90)
@@ -4413,7 +4413,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8404 "
+		(property "LCSC" "C557646"
 			(at 220.98 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4539,7 +4539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5V out"
+		(property "Value" "Screw_Terminal_01x02"
 			(at 257.81 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4583,7 +4583,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8404 "
+		(property "LCSC" "C557646"
 			(at 255.27 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -4953,7 +4953,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1ed11256-c42e-4eb5-9609-5355d331cf76")
 		(property "Reference" "D16"
 			(at 124.46 102.87 90)
@@ -5166,7 +5166,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://static.qingshow.net/fortiortech/file/1597746029372.pdf"
+		(property "Datasheet" ""
 			(at 83.82 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -5188,7 +5188,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C97683"
+		(property "LCSC" "C3036056"
 			(at 101.6 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5432,7 +5432,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "41b332ad-6322-4235-a2e7-480996b41c23")
 		(property "Reference" "D6"
 			(at 128.27 36.83 90)
@@ -6027,7 +6027,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "65ecb35c-153e-4281-bde8-67b7f4462772")
 		(property "Reference" "D15"
 			(at 120.65 102.87 90)
@@ -6117,7 +6117,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "66478f0b-79bc-412d-84b1-0d88a8d5b827")
 		(property "Reference" "D4"
 			(at 120.65 36.83 90)
@@ -6240,7 +6240,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/null_C13585.html"
+		(property "Datasheet" ""
 			(at 93.98 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6262,7 +6262,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "LCSC" "C7432781"
 			(at 93.98 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6355,7 +6355,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8404 "
+		(property "LCSC" "C557646"
 			(at 220.98 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6578,7 +6578,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/null_C13585.html"
+		(property "Datasheet" ""
 			(at 93.98 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6600,7 +6600,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "LCSC" "C7432781"
 			(at 93.98 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6758,7 +6758,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://static.qingshow.net/fortiortech/file/1597746029372.pdf"
+		(property "Datasheet" ""
 			(at 83.82 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6780,7 +6780,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C97683"
+		(property "LCSC" "C3036056"
 			(at 101.6 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7122,7 +7122,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C8404 "
+		(property "LCSC" "C557646"
 			(at 220.98 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7573,7 +7573,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e3933eca-7e49-405b-ac5e-586c5eb95792")
 		(property "Reference" "D5"
 			(at 124.46 36.83 90)
