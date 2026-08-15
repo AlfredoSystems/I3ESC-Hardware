@@ -32,3 +32,5 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+I3ESC-panelized/.history/
+.history/
