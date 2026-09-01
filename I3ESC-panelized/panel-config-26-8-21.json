@@ -1,0 +1,15 @@
+{
+    "layout": {
+        "rows": "4",
+        "cols": "3"
+    },
+    "tabs": {
+        "type": "full"
+    },
+    "cuts": {
+        "type": "vcuts",
+        "clearance": "0.4mm",
+        "linewidth": "0.4mm",
+        "layer": "Edge.Cuts"
+    }
+}
