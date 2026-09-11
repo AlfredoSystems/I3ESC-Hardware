@@ -1,0 +1,32 @@
+{
+    "layout": {
+        "hspace": "2mm",
+        "vspace": "2mm",
+        "hbackbone": "4mm",
+        "rows": "2",
+        "cols": "2"
+    },
+    "source": {
+        "type": "annotation",
+        "layer": "F.Cu"
+    },
+    "tabs": {
+        "type": "fixed",
+        "vwidth": "5mm",
+        "hwidth": "5mm",
+        "vcount": "2",
+        "hcount": "0",
+        "cutout": "0mm",
+        "fillet": "0.5mm"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "offset": "0.25mm",
+        "prolong": "0.4mm"
+    },
+    "framing": {
+        "type": "railstb",
+        "vspace": "3mm",
+        "width": "6mm"
+    }
+}

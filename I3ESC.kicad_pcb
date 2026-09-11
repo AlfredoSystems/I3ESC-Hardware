@@ -18,6 +18,8 @@
 		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
 		(31 "F.CrtYd" user "F.Courtyard")
@@ -2273,7 +2275,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2286"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3538,7 +3540,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29823"
+		(property "LCSC" "C380366"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5765,7 +5767,7 @@
 				)
 			)
 		)
-		(property "Value" "Qwiic1"
+		(property "Value" "Qwiic"
 			(at 0 3.3 0)
 			(layer "F.Fab")
 			(uuid "434fc9d8-6f85-45b9-ac60-df4b8127f3a7")
@@ -5789,7 +5791,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Qwiic1"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6946,7 +6948,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C558448 "
+		(property "LCSC" "C558448"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7785,7 +7787,7 @@
 				)
 			)
 		)
-		(property "Value" "Qwiic2"
+		(property "Value" "Qwiic"
 			(at 0 3.3 0)
 			(layer "F.Fab")
 			(uuid "5aa33b59-fb1e-4df4-9beb-33a1dab74eb1")
@@ -7808,7 +7810,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Qwiic2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8182,7 +8184,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C2290"
+		(property "LCSC" "C2290"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9813,7 +9815,7 @@
 				(pins "1" "2" "3")
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.33 -1.33)
@@ -11866,7 +11868,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C558448 "
+		(property "LCSC" "C558448"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12919,7 +12921,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29823"
+		(property "LCSC" "C380366"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14492,6 +14494,111 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "4c9f3112-1e64-4a5a-ab56-280d9ea1a7fb")
+		(at 20 -27.2 -90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e1d11f83-1e7d-4189-8f57-fbd5da8c2ddf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "9aa8c12a-c59b-4c85-817c-daf14de82e60")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8860131a-669b-4caf-a402-992cb3dad103")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3766d2d-c131-4e8b-a8ae-7cee0946cf2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "9758ce65-a4e8-4bca-8e0c-3d471292cc15")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "b70639cf-951a-47b5-86e0-5df457a40a9f")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "34929b80-43a4-4391-a14f-9d2ebb22f5f8")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "0ca8d701-e99c-45e9-9062-83875f035151")
+		)
+		(fp_text user "KIKIT: width: 5mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "a042e52f-e8c8-438f-bce8-e20014089087")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Diode_SMD:D_SOD-523"
 		(layer "F.Cu")
@@ -17994,7 +18101,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29823"
+		(property "LCSC" "C380366"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22594,7 +22701,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C558448 "
+		(property "LCSC" "C558448"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25338,7 +25445,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19171394"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25583,7 +25690,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C131342"
+		(property "LCSC" "C131342"
 			(at -5 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26265,7 +26372,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C558448 "
+		(property "LCSC" "C558448"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26781,7 +26888,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29823"
+		(property "LCSC" "C380366"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29233,7 +29340,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C558448 "
+		(property "LCSC" "C558448"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30434,6 +30541,111 @@
 			)
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "b92d94fc-11d3-4a5a-81eb-7f42f33cfbbd")
+		(at 20 27.2 90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d271933e-8f51-40e0-ad89-e1d77a28abad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "c7c7aecc-6c99-457f-817d-e9037eb54dd0")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fe95f2f-5980-472b-9555-e4543dd26491")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc94b4bf-2aec-4a9d-9fb3-633ae41103a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "176ac9dd-592e-4fd6-93b1-c6c0b91ecef2")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "59eebd29-e4b4-491e-b62e-0403be9ac8f2")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "38cd6656-48d6-4b8a-aaf8-b7582618d02b")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "47569f08-c6a6-44ef-8983-5e896810ee65")
+		)
+		(fp_text user "KIKIT: width: 5mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "6ab8126d-ed0f-4d83-a913-96222d074630")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "b9f2e728-6b3b-4b9f-82f4-582552dfa0a2")
@@ -30489,7 +30701,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29823"
+		(property "LCSC" "C380366"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33040,7 +33252,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29823"
+		(property "LCSC" "C380366"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34257,6 +34469,111 @@
 			)
 		)
 	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "d71078ac-54e9-49c3-b5bf-00471b9f8e72")
+		(at -20 -27.2 -90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "76e95591-f149-413c-90e8-881c92fa1fd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "060f9c12-b91d-454a-9383-8c53e34f9d66")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dde479dc-bc3a-4672-9386-0c54ed832de6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "738c802d-8ecb-4b80-9033-939878f99044")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "a19c3c16-1719-4a89-a888-73b9aacf5587")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "b7be7d89-a4bd-4a74-8a2a-5ee7f4658dca")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "8fac2f66-25d0-4294-bd0c-52095d033909")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "32a985ae-be81-41b4-a85a-0a3e5c330bed")
+		)
+		(fp_text user "KIKIT: width: 5mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "5622e258-bc6c-48e1-9839-82abc6693338")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d76edc79-2216-4057-89da-9a8bba9bd6dc")
@@ -35216,6 +35533,111 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "PCM_kikit:Tab"
+		(layer "F.Cu")
+		(uuid "ddd27c07-9bf2-41d1-85b0-dd23a27a0d6d")
+		(at -20 27.2 90)
+		(descr "A symbol representing annotation for tab placement")
+		(property "Reference" "REF**"
+			(at -0.25 -2 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "73b96848-c9fe-4e5e-86eb-7ea6aa781c06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Tab"
+			(at -3 -1 90)
+			(layer "Dwgs.User")
+			(uuid "556fab06-0bbe-4e39-82fb-497fdbebfba3")
+			(effects
+				(font
+					(size 1.2 1.2)
+					(thickness 0.2)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68d94f65-4dd5-4932-af58-8b7cf247c160")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb22ac5b-43da-4e55-a6da-6eb755a8e18b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 0 0)
+			(end -1 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "801c9b80-8a9c-426b-a51c-9463ad692445")
+		)
+		(fp_line
+			(start 0 0)
+			(end -3 0)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "569c9775-2c54-4855-bdee-cbfc7485b726")
+		)
+		(fp_line
+			(start 0 0)
+			(end -1 1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "28168486-57b4-44c8-ade0-69ef26229ed5")
+		)
+		(fp_line
+			(start 0 1)
+			(end 0 -1)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "Dwgs.User")
+			(uuid "afa19350-4269-4e82-900f-abc6ded5cbbd")
+		)
+		(fp_text user "KIKIT: width: 5mm"
+			(at -5.5 0 0)
+			(layer "Dwgs.User")
+			(uuid "c5d7ac4b-1548-42e0-9f74-9ea8dc436ce3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-3"
 		(layer "F.Cu")
@@ -37475,7 +37897,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C558448 "
+		(property "LCSC" "C558448"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40148,7 +40570,7 @@
 		)
 	)
 	(gr_text "1A\n"
-		(at -19.5 26.75 0)
+		(at -19.5 26.4 0)
 		(layer "F.SilkS")
 		(uuid "3795b5d5-444d-447a-b2e7-7c601390c9e0")
 		(effects
@@ -40160,7 +40582,7 @@
 		)
 	)
 	(gr_text "1B"
-		(at -14.5 26.75 0)
+		(at -14.5 26.4 0)
 		(layer "F.SilkS")
 		(uuid "d29a57c9-bb1f-4af2-9cf2-eda1435f1121")
 		(effects
@@ -40172,7 +40594,7 @@
 		)
 	)
 	(gr_text "1C\n"
-		(at -9.5 26.75 0)
+		(at -9.5 26.4 0)
 		(layer "F.SilkS")
 		(uuid "8b275e4c-39c2-40b9-b3cd-d170d52c8890")
 		(effects
@@ -40184,7 +40606,7 @@
 		)
 	)
 	(gr_text "2A\n"
-		(at -4.5 26.75 0)
+		(at -4.5 26.4 0)
 		(layer "F.SilkS")
 		(uuid "dd1658cf-8479-45b0-89a7-08d31fd06fff")
 		(effects
@@ -40196,7 +40618,7 @@
 		)
 	)
 	(gr_text "2B"
-		(at 0.5 26.75 0)
+		(at 0.5 26.4 0)
 		(layer "F.SilkS")
 		(uuid "aef9567c-3595-4c95-a63b-fa59f58cab5f")
 		(effects
@@ -40208,7 +40630,7 @@
 		)
 	)
 	(gr_text "2C\n"
-		(at 5.5 26.75 0)
+		(at 5.5 26.4 0)
 		(layer "F.SilkS")
 		(uuid "dbca97bc-238e-4fd5-817c-615f4b2760be")
 		(effects
@@ -40220,7 +40642,7 @@
 		)
 	)
 	(gr_text "OUTPUT"
-		(at 16 26.5 0)
+		(at 16 26.3 0)
 		(layer "F.SilkS")
 		(uuid "8a3ea58a-c881-4858-961b-75fb9a03c94c")
 		(effects
@@ -40280,7 +40702,7 @@
 		)
 	)
 	(gr_text "VIN"
-		(at 9.8 -26.7 180)
+		(at 9.8 -26.4 180)
 		(layer "F.SilkS")
 		(uuid "beb1d5cd-e344-4e6d-863a-37ad64cdb573")
 		(effects
@@ -40292,7 +40714,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 15.3 -26.7 180)
+		(at 15.7 -26.4 180)
 		(layer "F.SilkS")
 		(uuid "57e7509f-6981-4b00-b83b-f2d96ea41b6f")
 		(effects
@@ -40304,7 +40726,7 @@
 		)
 	)
 	(gr_text "INPUT"
-		(at 24.3 -26.7 180)
+		(at 24.3 -26.5 180)
 		(layer "F.SilkS")
 		(uuid "e48a1737-0aea-48f1-91d8-3dfbd29ffa8b")
 		(effects

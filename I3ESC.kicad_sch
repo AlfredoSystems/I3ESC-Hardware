@@ -6156,6 +6156,19 @@
 		)
 		(uuid "7801a397-42b4-426f-9158-5d965e09443b")
 	)
+	(text "Chips Used:\nSTM32G474RET6 - C521608 - original\nSTM32G473RCT6 - C529361 - value"
+		(exclude_from_sim no)
+		(at 17.018 66.802 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b488def4-622a-400f-8fc1-b47290ad044e")
+	)
 	(text "POWER"
 		(exclude_from_sim no)
 		(at 24.384 53.848 0)
@@ -10055,7 +10068,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C51940129"
+		(property "LCSC" " C51940129"
 			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10660,7 +10673,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C51940129"
+		(property "LCSC" " C51940129"
 			(at 238.76 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12553,7 +12566,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C131342"
+		(property "LCSC" "C131342"
 			(at 252.73 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12655,7 +12668,7 @@
 				)
 			)
 		)
-		(property "LCSC" " C2290"
+		(property "LCSC" "C2290"
 			(at 185.42 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -14551,7 +14564,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2286 "
+		(property "LCSC" "C2286"
 			(at 185.42 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -15580,7 +15593,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19171394"
 			(at 185.42 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -16675,7 +16688,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
